@@ -1,0 +1,377 @@
+html,body,ul,li,figure,span{
+	margin:0;
+	padding:0;
+}
+ul{list-style:none;}
+a{text-decoration:none;}
+html{font-size:100px;}
+body{width:100%;background:#eee;}
+header{
+	position:fixed;
+	width:100%;
+	height:0.36rem;
+	background-color:#fe5400;
+	display:flex;
+}
+header img{
+	height:0.20rem;
+	margin-top:0.08rem;
+	margin-left:0.05rem;
+}
+header div{
+	width:92%;
+	height:0.28rem;
+	box-sizing:border-box;
+	text-align:center;
+	margin-top:0.04rem;
+	margin-left:0.1rem;
+	background-color:#b52600;
+	border-radius:0.05rem;
+}
+header div a{display:block;width:100%;}
+header div a span{
+	width:100%;
+	display:block;
+	height:0.28rem;
+	margin-top:0.06rem;
+	font:0.14rem '宋体';
+	color:#fff;
+}
+
+section{
+	width:95%;
+	margin:0 auto;
+}
+section article {
+	width:100%;
+}
+section article figure{padding-top:0.35rem;}
+section article figure img{
+	display:block;
+	width:100%;
+}
+section article ul{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	background:#fff;
+}
+section article ul li{
+	display:block;
+	width:20%;
+	text-align:center;
+}
+section article ul li a{
+	font:14px '宋体';
+	color:#666;
+}
+section article ul li a img{
+	display:block;
+	width:100%;
+	margin-top:0.3rem;
+}
+
+section article .display{
+	width:100%;
+	height:0.5rem;
+	background:#fff;
+	border-top:2px solid #eee;
+}
+section article .display a{
+	display:flex;
+	height:80%;
+}
+section article .display a span{
+	height:100%;
+}
+section article .display a span:nth-child(1){
+	width:20%;
+}
+section article .display a span:nth-child(1) img{
+	display:block;
+	width:80%;
+	height:70%;
+	margin-top:0.12rem;
+	margin-left:0.1rem;
+}
+section article .display a span:nth-child(2){
+	width:8%;
+	height:54%;
+	font:14px '宋体';
+	color:#d81421;
+	border:1px solid #d81421;
+	border-radius:0.05rem;
+	text-align:center;
+	margin-top:0.1rem;
+	padding-top:0.06rem;
+	margin-left:0.2rem;
+
+}
+section article .display a span:nth-child(3){
+	width:60%;
+	height:100%;
+	font:14px '宋体';
+	color:#353535;
+	margin-top:0.1rem;
+	padding-top:0.06rem;
+	padding-left:0.1rem;
+}
+
+section article .four{
+	width:100%;
+	height:3rem;
+	display:flex;
+	flex-wrap:wrap;
+	border-top:10px solid #eee;
+}
+section article .four a:nth-child(1){width:44%;height:100%;}
+section article .four a:nth-child(1) div{
+	height:100%;
+	border-right:1px solid #eee;
+}
+section article .four a:nth-child(1) div img{
+	width:100%;
+	height:100%;
+}
+section article .four ul{
+	width:56%;
+	height:100%;
+}
+section article .four ul a:nth-child(1){width:100%;height:50%;}
+section article .four ul a:nth-child(1) div{
+	height:100%;
+	width:100%;
+	display:flex;
+	border-bottom:1px solid #eee;
+}
+section article .four ul a:nth-child(1) div img{
+	display:block;
+	width:50%;
+	height:100%;
+}
+section article .four ul a:nth-child(2) div{border-right:1px solid #eee;}
+section article .four ul a:nth-child(2),
+section article .four ul a:nth-child(3)
+{width:50%;height:50%;}
+section article .four ul a:nth-child(2) div,
+section article .four ul a:nth-child(3) div
+{height:100%;width:100%;}
+section article .four ul a:nth-child(2) div img,
+section article .four ul a:nth-child(3) div img
+{
+	width:100%;
+	height:100%;
+}
+ 
+section article .five{
+	width:100%;
+	height:4rem;
+	background:#fff;
+	margin-top:10px;
+}
+section article .five .t{
+	height:10%;
+	display:flex;
+	border-bottom:1px solid #eee;
+}
+section article .five .t img{
+	display:block;
+	width:5%;
+	height:75%;
+	margin-left:45%;
+	margin-top:0.06rem;
+}
+section article .five .t p{
+	font:14px '宋体';
+	color:#d81421;
+	width:0.5rem;
+	height:0.2rem;
+	margin-left:0.1rem;
+}
+section article .five ul{
+	width:100%;
+	height:90%;
+	display:flex;
+}
+section article .five ul a:nth-child(1),
+section article .five ul a:nth-child(5)
+{width:43%;height:40%;}
+section article .five ul a:nth-child(1) div,
+section article .five ul a:nth-child(5) div
+{
+	height:100%;
+	width:100%;
+	border-bottom:1px solid #eee;
+}
+section article .five ul a:nth-child(1) div img,
+section article .five ul a:nth-child(5) div img
+{
+	display:block;
+	width:100%;
+	height:100%;
+}
+section article .five ul a:nth-child(2),
+section article .five ul a:nth-child(3),
+section article .five ul a:nth-child(4),
+section article .five ul a:nth-child(6),
+section article .five ul a:nth-child(7),
+section article .five ul a:nth-child(8)
+{display:block;width:19%;height:40%;}
+section article .five ul a:nth-child(2) div,
+section article .five ul a:nth-child(3) div,
+section article .five ul a:nth-child(4) div
+{border-bottom:1px solid #eee;border-left:1px solid #eee;}
+section article .five ul a:nth-child(2) div,
+section article .five ul a:nth-child(3) div,
+section article .five ul a:nth-child(4) div,
+section article .five ul a:nth-child(6) div,
+section article .five ul a:nth-child(7) div,
+section article .five ul a:nth-child(8) div
+{height:100%;width:100%;}
+section article .five ul a:nth-child(6) div,
+section article .five ul a:nth-child(7) div,
+section article .five ul a:nth-child(8) div
+{border-left:1px solid #eee;}
+section article .five ul a:nth-child(2) div img,
+section article .five ul a:nth-child(3) div img,
+section article .five ul a:nth-child(4) div img,
+section article .five ul a:nth-child(6) div img,
+section article .five ul a:nth-child(7) div img,
+section article .five ul a:nth-child(8) div img
+{
+	width:100%;
+	height:100%;
+}
+
+section article .six{
+	width:100%;
+	height:4rem;
+	background:#fff;
+	border-top:10px solid #eee;
+	margin-bottom:0.2rem;
+	margin-bottom:0.5rem;
+}
+section article .six .m {
+	height:10%;
+	display:flex;
+	border-bottom:1px solid #eee;
+}
+section article .six .m img{
+	display:block;
+	width:5%;
+	height:75%;
+	margin-left:45%;
+	margin-top:0.06rem;
+}
+section article .six .m p{
+	font:14px '宋体';
+	color:#d81421;
+	width:0.6rem;
+	height:0.2rem;
+	margin-left:0.1rem;
+}
+section article .six ul{
+	width:100%;
+	height:90%;
+	display:flex;
+}
+section article .six ul a:nth-child(1),
+section article .six ul a:nth-child(2)
+{width:50%;height:40%;}
+section article .six ul a:nth-child(1) div
+{border-right:1px solid #eee;}
+section article .six ul a:nth-child(1) div,
+section article .six ul a:nth-child(2) div
+{
+	height:100%;
+	width:100%;
+	border-bottom:1px solid #eee;
+}
+section article .six ul a:nth-child(1) div img,
+section article .six ul a:nth-child(2) div img
+{
+	display:block;
+	width:100%;
+	height:100%;
+}
+section article .six ul a:nth-child(3),
+section article .six ul a:nth-child(4),
+section article .six ul a:nth-child(5),
+section article .six ul a:nth-child(6)
+{display:block;width:25%;height:40%;}
+section article .six ul a:nth-child(4) div,
+section article .six ul a:nth-child(5) div,
+section article .six ul a:nth-child(6) div
+{border-left:1px solid #eee;}
+section article .six ul a:nth-child(3) div,
+section article .six ul a:nth-child(4) div,
+section article .six ul a:nth-child(5) div,
+section article .six ul a:nth-child(6) div
+{height:100%;width:100%;}
+section article .six ul a:nth-child(3) div img,
+section article .six ul a:nth-child(4) div img,
+section article .six ul a:nth-child(5) div img,
+section article .six ul a:nth-child(6) div img
+{
+	width:100%;
+	height:100%;
+}
+
+
+footer{
+	width:100%;
+	height:0.44rem;
+	background:#fff;
+	border-top:1px solid #E7E7E7;
+	border-bottom:1px solid #F8F8F8;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+footer ul{
+	display:flex;
+	width: 100%;
+	height:0.44rem;
+}
+footer ul li{
+	display:block;
+	flex:1;
+	text-align:center;
+}
+footer ul li a{
+	font:14px '宋体';
+	color:#5c648d;
+}
+footer ul li span{
+	display:block;
+	margin-top:0.05rem;
+}
+footer ul li p{
+	margin-top:0.06rem;
+}
+@media screen and (min-width:320px) and (max-width:640px){
+	section{
+		width:100%;
+	}
+	section article .display a span:nth-child(2) {
+	    width: 10%;
+	}
+	section article .display a span:nth-child(3) {
+	    white-space:nowrap;
+	    overflow:hidden;
+	}
+	section article .five .t img {
+	    display: block;
+	    height: 50%;
+	    margin-left: 40%;
+	    margin-top: 0.1rem;
+	}
+	section article .six .m img {
+	    display: block;
+	    height: 60%;
+	    margin-left: 40%;
+	    margin-top: 0.1rem;
+	}
+}
+
+
